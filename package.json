@@ -1,0 +1,30 @@
+{
+  "name": "vibecage",
+  "version": "1.0.0",
+  "description": "Isolated Docker sandbox for Claude Code development",
+  "main": "src/cli.js",
+  "bin": {
+    "vibecage": "./bin/vibecage.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "claude",
+    "sandbox",
+    "docker",
+    "development",
+    "isolation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^9.2.12"
+  },
+  "type": "module"
+}
